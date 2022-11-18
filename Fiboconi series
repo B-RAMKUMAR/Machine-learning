@@ -1,0 +1,10 @@
+n=int(input("how many number you want"))
+a=0
+b=1
+print(a,end=" ")
+print(b,end=" ")
+for I in range(0,n):
+     c=a+b
+     print(c,end=" ")
+     a=b
+     b=c
