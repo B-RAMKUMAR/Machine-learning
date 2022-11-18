@@ -1,0 +1,5 @@
+n=eval(input("how many number you want"))
+k=[]
+for I in range(0,len(n)):
+    if(n[I]>0):
+       print(n[I],end=" ")
